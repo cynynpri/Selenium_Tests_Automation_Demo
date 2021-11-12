@@ -1,4 +1,4 @@
-# How to automate in selenium.  
+# How to automate selenium.  
 1.Install `node.js`  
 2.Run this npm command.  
 `npm init -y`  
