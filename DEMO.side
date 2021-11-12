@@ -1,0 +1,60 @@
+{
+  "id": "a0a49cd1-2f57-4482-9905-895e5b039064",
+  "version": "2.0",
+  "name": "DEMO",
+  "url": "https://www.yahoo.co.jp",
+  "tests": [{
+    "id": "f6e17c1f-3e0f-4efb-9704-b4242440c01c",
+    "name": "open_game",
+    "commands": [{
+      "id": "042e7f18-609f-4591-bee7-30eac1dca483",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf54c222-1299-4679-9f10-d78dc2f3c35f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1140",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "404b64f7-6a57-49c0-8988-df16b55df779",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(20) .fQMqQTGJTbIMxjQwZA2zk",
+      "targets": [
+        ["css=li:nth-child(20) .fQMqQTGJTbIMxjQwZA2zk", "css:finder"],
+        ["xpath=//div[@id='ToolList']/ul/li[20]/div/a/p/span/span", "xpath:idRelative"],
+        ["xpath=//li[20]/div/a/p/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7d9a714-bf3b-4c1d-8a37-aaf3d25703b9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,311)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a7986e4-b5a3-43e6-af9f-42a46c37416d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,600)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "fd43cdfe-6499-4afb-ad55-1e2afa47340c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f6e17c1f-3e0f-4efb-9704-b4242440c01c"]
+  }],
+  "urls": ["https://www.yahoo.co.jp/"],
+  "plugins": []
+}
