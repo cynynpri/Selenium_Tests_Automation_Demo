@@ -23,5 +23,5 @@ URL: http://chromedriver.storage.googleapis.com/index.html
 8.Run npm test command.  
 `npm run test`  
   
-8.Finish.  
+9.Finish.  
   
